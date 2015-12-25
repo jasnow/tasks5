@@ -15,7 +15,12 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails'       , github: 'rspec/rspec-rails'
+  gem 'rspec-core'        , github: 'rspec/rspec-core'
+  gem 'rspec-expectations', github: 'rspec/rspec-expectations'
+  gem 'rspec-mocks'       , github: 'rspec/rspec-mocks'
+  gem 'rspec-support'     , github: 'rspec/rspec-support'
+
   gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
 end
