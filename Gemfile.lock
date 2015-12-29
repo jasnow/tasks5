@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jnicklas/capybara.git
-  revision: 343f851ee09e5ee9f02be2a57f6eb97082b40081
+  revision: 957c35f580b68e8a140b5bbe7818fdcf06bc4521
   branch: master
   specs:
     capybara (2.6.0.dev)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-core.git
-  revision: 8cb45cc8779d09b13e054ecb94c911b7e14f7fde
+  revision: a575b9b740a9af13c9760751aa3da09ffda30db5
   specs:
     rspec-core (3.5.0.pre)
       rspec-support (= 3.5.0.pre)
