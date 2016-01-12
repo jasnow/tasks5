@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-core.git
-  revision: 5800249ae9f15056f8457dfd257f778096b550a9
+  revision: be0e1bc0a2b03e3f820195f54b0fe96c87fa587f
   specs:
     rspec-core (3.5.0.pre)
       rspec-support (= 3.5.0.pre)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-mocks.git
-  revision: eae0606af439f81db374e824fa57a51daccc0985
+  revision: 42ef957e0af1813c0933f29588121e78fadb8244
   specs:
     rspec-mocks (3.5.0.pre)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -274,7 +274,7 @@ GEM
     redis (3.2.2)
     ruby_parser (3.7.2)
       sexp_processor (~> 4.1)
-    sass (3.4.20)
+    sass (3.4.21)
     sexp_processor (4.6.0)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
