@@ -1,9 +1,10 @@
 GIT
   remote: git://github.com/jnicklas/capybara.git
-  revision: 4b3093f4bd12a682b41d8e88d3958d33e70f4662
+  revision: 2e2fc15e54543d30609ac4a292e5a854301a6f12
   branch: master
   specs:
-    capybara (2.6.0.dev)
+    capybara (2.6.0)
+      addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
       rack (>= 1.0.0)
@@ -35,7 +36,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-rails.git
-  revision: b2ac99c4202245598f3a15f14aa22ae3cd1b66b7
+  revision: 6f06b28c1c97249a742b2206f86e030b46fef3b9
   specs:
     rspec-rails (3.5.0.pre)
       actionpack (>= 3.0)
