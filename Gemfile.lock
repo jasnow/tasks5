@@ -1,17 +1,4 @@
 GIT
-  remote: git://github.com/jnicklas/capybara.git
-  revision: 6f4c8ffc37487e472ed5241d9864f0ae6c7c3975
-  branch: master
-  specs:
-    capybara (2.7.0.dev)
-      addressable
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
-
-GIT
   remote: git://github.com/rspec/rspec-core.git
   revision: d2ab0591b3c47283d3795db50a01ab3c76cc98d8
   specs:
@@ -106,6 +93,13 @@ GEM
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
     builder (3.2.2)
+    capybara (2.6.0)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
     celluloid (0.17.3)
       celluloid-essentials
       celluloid-extras
@@ -310,7 +304,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara!
+  capybara
   coffee-script
   dawnscanner
   jquery-rails

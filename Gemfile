@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '5.0.0.beta1'
-gem 'capybara', github: 'jnicklas/capybara', branch: 'master'
+gem 'capybara'
 
 gem 'sqlite3'
 gem 'sass'
