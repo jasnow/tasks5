@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rspec/rspec-core.git
-  revision: d2ab0591b3c47283d3795db50a01ab3c76cc98d8
+  revision: 7054dcea08d55f68a281b4cc5b4465fa2b582b39
   specs:
     rspec-core (3.5.0.pre)
       rspec-support (= 3.5.0.pre)
@@ -138,7 +138,7 @@ GEM
       dm-transactions (~> 1.2.0)
       dm-types (~> 1.2.0)
       dm-validations (~> 1.2.0)
-    data_objects (0.10.16)
+    data_objects (0.10.17)
       addressable (~> 2.1)
     dawnscanner (1.5.2)
       cvss
@@ -187,8 +187,8 @@ GEM
       uuidtools (~> 2.1)
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
-    do_sqlite3 (0.10.16)
-      data_objects (= 0.10.16)
+    do_sqlite3 (0.10.17)
+      data_objects (= 0.10.17)
     em-hiredis (0.3.0)
       eventmachine (~> 1.0)
       hiredis (~> 0.5.0)
