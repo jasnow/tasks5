@@ -14,12 +14,9 @@ describe "Tasks", :type => :request do
     it "creates a new page" do
       visit tasks_path
       fill_in 'Task', :with => 'go to work'
-      click_button "Create Task"
-
+      click_button "Create task"
       expect(current_path).to eq(tasks_path)
       expect(page).to have_content 'go to work'
-
-      #U# save_and_open_page
     end
   end
 
@@ -29,12 +26,9 @@ describe "Tasks", :type => :request do
       click_link 'Edit'
 
       expect(current_path).to eq(edit_task_path(@task))
-      #U# save_and_open_page
-
-      #U# page.should have_content 'go to bed'
       expect(find_field('Task').value).to eq('go to bed')
       fill_in 'Task', :with => 'updated task'
-      click_button "Update Task"
+      click_button "Update task"
 
       expect(current_path).to  eq(tasks_path)
 
@@ -46,7 +40,7 @@ describe "Tasks", :type => :request do
       click_link 'Edit'
 
       fill_in 'Task', :with => ''
-      click_button 'Update Task'
+      click_button 'Update task'
 
       expect(current_path).to eq(edit_task_path(@task))
       expect(page).to have_content 'There was an error updating your task.'

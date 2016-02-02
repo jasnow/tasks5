@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.0.beta1.1'
-gem 'capybara'
+gem 'rails', '5.0.0.beta2'
 
 gem 'sqlite3'
 gem 'sass'
@@ -20,6 +19,8 @@ group :test, :development do
   gem 'rspec-expectations', github: 'rspec/rspec-expectations'
   gem 'rspec-mocks'       , github: 'rspec/rspec-mocks'
   gem 'rspec-support'     , github: 'rspec/rspec-support'
+
+  gem 'capybara'
 
   gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
