@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-expectations.git
-  revision: 4c1856b5155f14b4fa5f2c623f2e3fe92bbd1463
+  revision: f7b5f1d52484a858eba27c2d6c40794df325d0d0
   specs:
     rspec-expectations (3.5.0.pre)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -15,7 +15,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-mocks.git
-  revision: 2fcdbaee682efc35c146c9f713c079356ca3ec6e
+  revision: 993fcf286ac0e5b23f209c8183fa8f2209347d12
   specs:
     rspec-mocks (3.5.0.pre)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -23,7 +23,7 @@ GIT
 
 GIT
   remote: git://github.com/rspec/rspec-rails.git
-  revision: f98afa1aa6b11f450a2d819940026529f4394482
+  revision: 74131b25e9d0a68e39ee5bf5b0ad08c2fd8a444b
   specs:
     rspec-rails (3.5.0.pre)
       actionpack (>= 3.0)
