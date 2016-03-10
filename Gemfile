@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '5.0.0.beta3'
+gem 'rake', '10.5.0' # LOCKED DOWN
 
 gem 'sqlite3'
 gem 'sass'
